@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+	<title>About Us</title>
+</head>
+<body>
+
+	<div class="container">
+
+		<nav class="navbar">
+			   <!-- LOGO -->
+     		<div class="logo">
+		  		<a href="index.html"><img src="images/Logo.png" alt="logo"></a>
+    		</div>
+     		<!-- NAVIGATION MENU -->
+     		<ul class="nav-links">
+      		 <!-- USING CHECKBOX HACK -->
+       		<input type="checkbox" id="checkbox_toggle" />
+      		 <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+      		 <!-- NAVIGATION MENUS -->
+       		<div class="menu">
+         		<li><a href="index.html">Home</a></li>
+         		<li><a href="aboutUs.html">About Us</a></li>
+         		<li class="services">
+          			 <a href="#">Books</a>
+          			 <!-- DROPDOWN MENU -->
+           				<ul class="dropdown">
+            			 	<li><a href="devTradePlan.html">Developing Your  Own Trade Plan</a></li>
+                    <li><a href="devTrainPlan.html">Developing Your Own Training Plan</a></li>
+            			 	<li><a href="chartsPatterns.html">Important Charts & Patterns</a></li>
+             				<li><a href="mktSentiment.html">Market Sentiment Explained</a></li>
+             				<li><a href="masterCrypto.html">Mastering Crypto</a></li>
+                    <li><a href="multiTime.html">Multiple Time Frame Analysis</a></li>
+                    <li><a href="positionSizing.html">Position Sizing</a></li>
+                    <li><a href="riskmgt.html">Risk Management</a></li>
+                    <li><a href="supportResiLevels.html">Support Resistance & Levels</a></li>
+                    <li><a href="tradeBreakFake.html">Trading Breakouts & Fakeouts</a></li>
+                    <li><a href="whenToTrade.html">Knowing When to Trade Crypto</a></li>
+           				</ul>
+         		</li>
+         		<li><a href="contactUs.html">Contact Us</a></li>
+       		</div>
+     		</ul>
+		</nav>
+    </div>
+    
+    <div class="pagelabel">
+        <h3 style="color: whitesmoke;"><marquee>About Us</marquee></h3>
+    </div>
+    <hr>
+    <table>
+       <tr>
+           <td>
+               <img style="width: 100%; padding: 20px;;" src="images/aboutUs.jpg" alt="">
+           </td>
+           <td style="text-align: justify; padding: 15px;">
+               <p><h1 style="text-align: center;">All About Christebooks</h1></p>
+                <p><h2 style="text-align: center;">Smart, affordable products</h2></p>
+                <p>Ever since we founded our store in 2000, we had one goal in mind: ensuring a consistent variety of fantastic items along with unique, limited edition and seasonal merchandise that fit any budget. We’re proud of how far we’ve come, and remain committed to adding more great products to our stock year after year.</p>
+                <p>Our collections are carefully selected with our customers’ needs in mind. Delivery options and payment methods are generous and flexible. Browse our product gallery and start selecting new favorites you won't find anywhere else. For questions, comments or suggestions, don't hesitate to contact us.</p>
+            </td>
+       </tr>
+   </table>
+   </div>
+   <script type="text/javascript" src="ebook.js"></script>
+   
+   <script>
+   // When the user scrolls the page, execute myFunction
+   window.onscroll = function() {myFunction()};
+   
+   // Get the navbar
+   var navbar = document.getElementById("navbar");
+   
+   // Get the offset position of the navbar
+   var sticky = navbar.offsetTop;
+   
+   // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+   function myFunction() {
+     if (window.pageYOffset >= sticky) {
+       navbar.classList.add("sticky")
+     } else {
+       navbar.classList.remove("sticky");
+     }
+   }
+   
+   </script>
+
+<footer>
+ <i><h5>Powered by Wisdom101 Int'l &nbsp;&copy;2024. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +234 803 414 9190</h5></i>
+</footer
